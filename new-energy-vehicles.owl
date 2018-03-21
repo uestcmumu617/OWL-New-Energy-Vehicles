@@ -645,16 +645,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_03c1566c_4559_4719_b90a_126d7962c71c -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_03c1566c_4559_4719_b90a_126d7962c71c">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <rdfs:label xml:lang="zh">等速法纯电动续驶里程（km）</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_04243af4_a130_4a71_8bc2_a58d87b8b199 -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_04243af4_a130_4a71_8bc2_a58d87b8b199">
@@ -745,6 +735,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_3faafce6_44f9_4938_96b3_1b1883969ffa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_3faafce6_44f9_4938_96b3_1b1883969ffa">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_14459c0b_4e2c_47a3_8c01_b4e802ebc393"/>
+        <rdfs:label xml:lang="zh">距离（km）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_4d26d642_fd2e_4f2b_9a2f_653cbed2f5c0 -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_4d26d642_fd2e_4f2b_9a2f_653cbed2f5c0">
@@ -826,6 +825,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_baa98d99_9103_413e_92d3_69a5bbdc8563 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_baa98d99_9103_413e_92d3_69a5bbdc8563">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_14459c0b_4e2c_47a3_8c01_b4e802ebc393"/>
+        <rdfs:label xml:lang="zh">时间（年）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_ce0ed69e_89c1_4667_a753_12f04282784d -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_ce0ed69e_89c1_4667_a753_12f04282784d">
@@ -852,16 +860,6 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:label xml:lang="zh">电机最大扭矩（N*m）</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_f2423560_66ba_4896_85d8_4688afe7dc6b -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_f2423560_66ba_4896_85d8_4688afe7dc6b">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="zh">级别</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -7762,19 +7760,26 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_ce8ae016_5ddf_4746_8f6b_c3e90eeda759">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_5eeb1c98_acfc_4b48_890d_3aaddb862ab8"/>
+        <OWLDataProperty_00a1c460_1596_46e2_b763_dcb9f6110eed rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></OWLDataProperty_00a1c460_1596_46e2_b763_dcb9f6110eed>
+        <OWLDataProperty_00a1c460_1596_46e2_b763_dcb9f6110eed rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22000</OWLDataProperty_00a1c460_1596_46e2_b763_dcb9f6110eed>
+        <OWLDataProperty_04243af4_a130_4a71_8bc2_a58d87b8b199 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">44000</OWLDataProperty_04243af4_a130_4a71_8bc2_a58d87b8b199>
         <OWLDataProperty_0c003981_f5f9_4d00_babf_ac2ca768f079 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1765</OWLDataProperty_0c003981_f5f9_4d00_babf_ac2ca768f079>
         <OWLDataProperty_13088fdb_a70a_4438_801d_21837e186ea9 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4680</OWLDataProperty_13088fdb_a70a_4438_801d_21837e186ea9>
         <OWLDataProperty_1f25a4ee_e10f_41ab_9515_722c36497bc9 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1500</OWLDataProperty_1f25a4ee_e10f_41ab_9515_722c36497bc9>
+        <OWLDataProperty_28f4b528_5a8c_404c_96c1_ed241ee3fca0 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-01T00:00:00</OWLDataProperty_28f4b528_5a8c_404c_96c1_ed241ee3fca0>
         <OWLDataProperty_32c5566b_a719_4e31_b497_a2202fc1ebb6 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</OWLDataProperty_32c5566b_a719_4e31_b497_a2202fc1ebb6>
         <OWLDataProperty_349eaa4c_f943_47c0_9feb_831204e4ee8d rdf:datatype="http://www.w3.org/2001/XMLSchema#int">305</OWLDataProperty_349eaa4c_f943_47c0_9feb_831204e4ee8d>
         <OWLDataProperty_3939cf32_8117_4be6_b00b_9a031551e496 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">160</OWLDataProperty_3939cf32_8117_4be6_b00b_9a031551e496>
+        <OWLDataProperty_3faafce6_44f9_4938_96b3_1b1883969ffa rdf:datatype="http://www.w3.org/2001/XMLSchema#int">150000</OWLDataProperty_3faafce6_44f9_4938_96b3_1b1883969ffa>
         <OWLDataProperty_4d26d642_fd2e_4f2b_9a2f_653cbed2f5c0 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</OWLDataProperty_4d26d642_fd2e_4f2b_9a2f_653cbed2f5c0>
         <OWLDataProperty_52652d69_bb51_46a4_b387_8b8118e7b52c rdf:datatype="http://www.w3.org/2001/XMLSchema#int">450</OWLDataProperty_52652d69_bb51_46a4_b387_8b8118e7b52c>
         <OWLDataProperty_81782d86_bd32_40b9_9d88_57d77124bc8d rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1525</OWLDataProperty_81782d86_bd32_40b9_9d88_57d77124bc8d>
         <OWLDataProperty_aa4394a6_93f8_44a6_b400_33b1647ab8ab rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1520</OWLDataProperty_aa4394a6_93f8_44a6_b400_33b1647ab8ab>
         <OWLDataProperty_ab896ba2_91f0_49ea_af9b_c88c4429f1b8 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2660</OWLDataProperty_ab896ba2_91f0_49ea_af9b_c88c4429f1b8>
+        <OWLDataProperty_baa98d99_9103_413e_92d3_69a5bbdc8563 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</OWLDataProperty_baa98d99_9103_413e_92d3_69a5bbdc8563>
         <OWLDataProperty_da31815e_f0de_4434_aa84_a987acb09003 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</OWLDataProperty_da31815e_f0de_4434_aa84_a987acb09003>
         <OWLDataProperty_eb38c4c4_fa3b_433e_a84e_72f54a4f41ff rdf:datatype="http://www.w3.org/2001/XMLSchema#int">310</OWLDataProperty_eb38c4c4_fa3b_433e_a84e_72f54a4f41ff>
+        <OWLDataProperty_fffa4034_de35_4f3e_8e32_1f5d5d12a8e7 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">113800</OWLDataProperty_fffa4034_de35_4f3e_8e32_1f5d5d12a8e7>
         <rdfs:label xml:lang="zh">比亚迪e5 2017款 300 e享型</rdfs:label>
     </owl:NamedIndividual>
     
