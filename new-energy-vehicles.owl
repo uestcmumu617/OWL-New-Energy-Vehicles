@@ -21,12 +21,129 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_007e6baf_3021_4144_82c5_3c7b7849ad64 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_007e6baf_3021_4144_82c5_3c7b7849ad64">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">碰撞自动解锁</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_00fa6758_a3ef_4148_b5ce_c8c07dbcdc76 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_00fa6758_a3ef_4148_b5ce_c8c07dbcdc76">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">ISO-FIX标准儿童座椅固定装置</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_0784afd4_6d59_44ab_9704_b21f3499f80c -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_0784afd4_6d59_44ab_9704_b21f3499f80c">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_fac3ebc8_d22d_46bb_8773_548ecceaa643"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_fac3ebc8_d22d_46bb_8773_548ecceaa643"/>
         <rdfs:label xml:lang="zh">控股</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_0bbbc3a2_6f6a_42cd_b1d6_b8cdd57d164d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_0bbbc3a2_6f6a_42cd_b1d6_b8cdd57d164d">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">行李箱照明灯</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_0fe01206_97d2_4045_92cc_88b255007b28 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_0fe01206_97d2_4045_92cc_88b255007b28">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">后室内灯</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_13b3171f_5aea_4500_916c_a410469ab97e -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_13b3171f_5aea_4500_916c_a410469ab97e">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">儿童安全锁</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_15380b54_30ee_475c_b492_9e71028e10af -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_15380b54_30ee_475c_b492_9e71028e10af">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">前门门灯</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_17304cf5_0580_4481_9042_4faee47b3d7e -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_17304cf5_0580_4481_9042_4faee47b3d7e">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">前排双安全气囊</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_1f364e67_e3ab_4d47_8f74_ddceae38ad10 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_1f364e67_e3ab_4d47_8f74_ddceae38ad10">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">HBA液压制动辅助系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_20c07e36_98f0_494f_8e94_cc648b17a285 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_20c07e36_98f0_494f_8e94_cc648b17a285">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">EBD制动力分配系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_3237d389_622d_4b31_91dd_aaa3cf453f36 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_3237d389_622d_4b31_91dd_aaa3cf453f36">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">轮毂</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_3b8d3147_f79d_4401_92b3_c43571b9f58d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_3b8d3147_f79d_4401_92b3_c43571b9f58d">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">前后贯穿式侧安全气帘</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_44037017_c814_402a_b7fc_cd3b5f3182ab -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_44037017_c814_402a_b7fc_cd3b5f3182ab">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">后组合大灯</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_458ee022_fa81_4210_a95c_4c90bca90919 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_458ee022_fa81_4210_a95c_4c90bca90919">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">侧转向灯</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -51,12 +168,129 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48d80577_5ea8_46ff_9398_a2bf840f16cc -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48d80577_5ea8_46ff_9398_a2bf840f16cc">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">TCS牵引力控制系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_4dff74f9_fffa_4160_9d90_f1f4f76f6f58 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_4dff74f9_fffa_4160_9d90_f1f4f76f6f58">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">BOS刹车优先系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_4f112c3a_9393_4666_950c_6bad375e6075 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_4f112c3a_9393_4666_950c_6bad375e6075">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">大灯</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_50c0ada8_18ae_42b1_ba85_33b77a2ea669 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_50c0ada8_18ae_42b1_ba85_33b77a2ea669">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">行车自动落锁</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_50d4253e_01f6_42cd_bf4f_275df555c6f0 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_50d4253e_01f6_42cd_bf4f_275df555c6f0">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">前排座椅侧安全气囊</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_517c0346_824a_424c_b9c4_5f5eddcd06dc -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_517c0346_824a_424c_b9c4_5f5eddcd06dc">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">前排安全带未系声光报警</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_53b4e572_02f0_44ef_b8f2_122e36951d0d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_53b4e572_02f0_44ef_b8f2_122e36951d0d">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">溃缩吸能式制动踏板</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_58210087_a70c_4c7f_b03d_d9bc3ec3c8b0 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_58210087_a70c_4c7f_b03d_d9bc3ec3c8b0">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">电热除霾</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_5b2a0755_c9af_4da6_9bd8_fd94e5cf6c42 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_5b2a0755_c9af_4da6_9bd8_fd94e5cf6c42">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_2df0ecf4_0032_4341_8ad2_dfa5017f6464"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_fac3ebc8_d22d_46bb_8773_548ecceaa643"/>
         <rdfs:label xml:lang="zh">认证</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_5d1c3dba_1f6c_4654_86f7_494269872060 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_5d1c3dba_1f6c_4654_86f7_494269872060">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">高位制动灯</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_5d2ddd84_6fc5_4d8c_a9dc_9d9285cf1d5b -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_5d2ddd84_6fc5_4d8c_a9dc_9d9285cf1d5b">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">雨刮</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_61958e0b_9f12_4641_b4ba_ab79213d9820 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_61958e0b_9f12_4641_b4ba_ab79213d9820">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">倒车雷达</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_6277dd47_dde6_42bc_8df0_0a8d542197eb -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_6277dd47_dde6_42bc_8df0_0a8d542197eb">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">多媒体系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_68d89567_38d5_43b4_8506_4cf343aec00e -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_68d89567_38d5_43b4_8506_4cf343aec00e">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">悬挂系统</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -71,12 +305,221 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_720993fb_6661_4044_860c_5d0613f628b8 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_720993fb_6661_4044_860c_5d0613f628b8">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">GPS导航系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_735a4f7c_8006_49bb_871c_c732c092be8a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_735a4f7c_8006_49bb_871c_c732c092be8a">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">整体式溃缩吸能转向管柱</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_797fd15b_c6ca_4b52_aada_fe3fde008d67 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_797fd15b_c6ca_4b52_aada_fe3fde008d67">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">遮阳板</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_87f43db5_186e_4ea8_993b_2d13cebc4e8c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_87f43db5_186e_4ea8_993b_2d13cebc4e8c">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">Keyless智能钥匙系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_88826190_bdf2_43b1_a2c9_808b9af9658a -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_88826190_bdf2_43b1_a2c9_808b9af9658a">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_da4ca2c1_f2db_4d7c_af8d_8dc4ec12c960"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_25df62cf_5c05_4d15_9398_eedc965511de"/>
         <rdfs:label xml:lang="zh">遵守</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_94b34749_c2d4_407a_a949_67cd2f8890cd -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_94b34749_c2d4_407a_a949_67cd2f8890cd">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">电池智能温控管理系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_97e48aac_63c7_4b1a_9d86_d1a7806501ba -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_97e48aac_63c7_4b1a_9d86_d1a7806501ba">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">前雾灯</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_9ec9a458_2a3d_4d21_a83c_04dd9e50e30c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_9ec9a458_2a3d_4d21_a83c_04dd9e50e30c">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">3H高强度全方位碰撞吸能安全车身</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_a4fb5c0f_0b22_467a_bad1_74223dea3038 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_a4fb5c0f_0b22_467a_bad1_74223dea3038">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">充电枪</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_a6649d73_6e01_4443_9e7a_1a1177c481d0 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_a6649d73_6e01_4443_9e7a_1a1177c481d0">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">储物盒内部照明灯</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_a7018a5b_ad12_471e_8db9_d083aa43fd02 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_a7018a5b_ad12_471e_8db9_d083aa43fd02">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">整体钢板冲压侧围</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_a763106a_a0dd_49fa_a3e0_bf1d13debca9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_a763106a_a0dd_49fa_a3e0_bf1d13debca9">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">HAC上坡辅助控制系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_aae99ae3_753b_4aca_bf37_29c87bd41e6c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_aae99ae3_753b_4aca_bf37_29c87bd41e6c">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_fac3ebc8_d22d_46bb_8773_548ecceaa643"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_fac3ebc8_d22d_46bb_8773_548ecceaa643"/>
+        <rdfs:label xml:lang="zh">供应</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_ac3d4053_6933_48a3_9948_aaba6826c728 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_ac3d4053_6933_48a3_9948_aaba6826c728">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">方向盘</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_b4b30ee0_42cb_40d5_a467_1831a737581f -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_b4b30ee0_42cb_40d5_a467_1831a737581f">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">PM2.5绿净系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_b737fe70_9012_4428_802a_82ec56d0b7c1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_b737fe70_9012_4428_802a_82ec56d0b7c1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">扬声器</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_bb1a3e6e_81d0_44a2_bda8_3ee2e60583a9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_bb1a3e6e_81d0_44a2_bda8_3ee2e60583a9">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">车门内置防侧撞安全保护杆</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_bb9ee592_7962_4732_8d19_36761d005bda -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_bb9ee592_7962_4732_8d19_36761d005bda">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">前排预紧跟力式安全带</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_c0aae9ee_05d5_4b78_a0fe_147337c874d8 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_c0aae9ee_05d5_4b78_a0fe_147337c874d8">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">车载蓝牙系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_c67ba060_794b_41f4_a00b_2145a8f429f0 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_c67ba060_794b_41f4_a00b_2145a8f429f0">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">ESP车辆稳态控制系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_c683e3a1_660c_4afb_8f69_4c364c964b7b -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_c683e3a1_660c_4afb_8f69_4c364c964b7b">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">高强度前后防撞梁</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_ccfc741e_1235_493a_ac03_95c2ee72c886 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_ccfc741e_1235_493a_ac03_95c2ee72c886">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">ABS防抱死制动系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_ce49eabe_0bbd_4dd0_8ba8_0493c096bbe6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_ce49eabe_0bbd_4dd0_8ba8_0493c096bbe6">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">壁挂式充电盒</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_cf301bb2_ae44_4e5c_85d9_58fbfa0540d7 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_cf301bb2_ae44_4e5c_85d9_58fbfa0540d7">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">天窗</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -88,6 +531,348 @@
         <rdfs:range rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_da4ca2c1_f2db_4d7c_af8d_8dc4ec12c960"/>
         <rdfs:label xml:lang="zh">出售</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_d3c8dec7_bad4_48ca_8178_4022f37b5e35 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_d3c8dec7_bad4_48ca_8178_4022f37b5e35">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">TMPS胎压监测系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_d9341cc7_e8ec_469e_9b20_1222bfa60491 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_d9341cc7_e8ec_469e_9b20_1222bfa60491">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">前室内灯</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_d9ca94cf_ffc2_4e00_a598_8e02b561c2f8 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_d9ca94cf_ffc2_4e00_a598_8e02b561c2f8">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">电子防盗系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_e372f701_bffd_42f5_83ce_63d7a382901d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_e372f701_bffd_42f5_83ce_63d7a382901d">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">座椅</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_ee7b892d_7f65_4ee6_a16f_ebc31b25ad81 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_ee7b892d_7f65_4ee6_a16f_ebc31b25ad81">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">EPB电子驻车系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_f14dfc57_e3a7_472f_8cd7_c49bdcd60978 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_f14dfc57_e3a7_472f_8cd7_c49bdcd60978">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">轮胎</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_f4788e80_b44d_40ba_a78b_cb6a52478f58 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_f4788e80_b44d_40ba_a78b_cb6a52478f58">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">仪表板</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_f6c8082e_a4dc_47e6_a870_905e6b7d733d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_f6c8082e_a4dc_47e6_a870_905e6b7d733d">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">空调</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_f85f36b6_5c32_446b_b966_607dfdb1ed2a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_f85f36b6_5c32_446b_b966_607dfdb1ed2a">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">制动系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_f9c59e10_4d1a_450a_a1fc_0e18efec1f91 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_f9c59e10_4d1a_450a_a1fc_0e18efec1f91">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLObjectProperty_48678104_d1c1_4a00_9db9_4c5f6c98b8a7"/>
+        <rdfs:label xml:lang="zh">R-EPS电动助力式转向系统</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_00a1c460_1596_46e2_b763_dcb9f6110eed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_00a1c460_1596_46e2_b763_dcb9f6110eed">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_7d4482a5_aa97_470a_8522_a0cc15a9c74a"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="zh">地方</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_03c1566c_4559_4719_b90a_126d7962c71c -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_03c1566c_4559_4719_b90a_126d7962c71c">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="zh">等速法纯电动续驶里程（km）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_04243af4_a130_4a71_8bc2_a58d87b8b199 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_04243af4_a130_4a71_8bc2_a58d87b8b199">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_7d4482a5_aa97_470a_8522_a0cc15a9c74a"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="zh">国家</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_0c003981_f5f9_4d00_babf_ac2ca768f079 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_0c003981_f5f9_4d00_babf_ac2ca768f079">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="zh">宽度（mm）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_13088fdb_a70a_4438_801d_21837e186ea9 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_13088fdb_a70a_4438_801d_21837e186ea9">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="zh">长度（mm）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_14459c0b_4e2c_47a3_8c01_b4e802ebc393 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_14459c0b_4e2c_47a3_8c01_b4e802ebc393">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="zh">整车质保</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_1f25a4ee_e10f_41ab_9515_722c36497bc9 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_1f25a4ee_e10f_41ab_9515_722c36497bc9">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="zh">高度（mm）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_28f4b528_5a8c_404c_96c1_ed241ee3fca0 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_28f4b528_5a8c_404c_96c1_ed241ee3fca0">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label xml:lang="zh">上市时间</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_32c5566b_a719_4e31_b497_a2202fc1ebb6 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_32c5566b_a719_4e31_b497_a2202fc1ebb6">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="zh">座位数</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_349eaa4c_f943_47c0_9feb_831204e4ee8d -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_349eaa4c_f943_47c0_9feb_831204e4ee8d">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="zh">纯电续航里程（km）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_3939cf32_8117_4be6_b00b_9a031551e496 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_3939cf32_8117_4be6_b00b_9a031551e496">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="zh">电机最大功率（kW）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_4d26d642_fd2e_4f2b_9a2f_653cbed2f5c0 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_4d26d642_fd2e_4f2b_9a2f_653cbed2f5c0">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="zh">车门数</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_52652d69_bb51_46a4_b387_8b8118e7b52c -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_52652d69_bb51_46a4_b387_8b8118e7b52c">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="zh">行李厢容积（L）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_6473b4ab_416a_42ed_a90e_ac599e9d05e4 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_6473b4ab_416a_42ed_a90e_ac599e9d05e4">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="zh">行李箱容积（L）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_7d4482a5_aa97_470a_8522_a0cc15a9c74a -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_7d4482a5_aa97_470a_8522_a0cc15a9c74a">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="zh">补贴</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_81782d86_bd32_40b9_9d88_57d77124bc8d -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_81782d86_bd32_40b9_9d88_57d77124bc8d">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="zh">前轮距（mm）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_9c0d8795_fa81_41f5_b5ca_c145e817eacf -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_9c0d8795_fa81_41f5_b5ca_c145e817eacf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="zh">最小转弯半径（m）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_aa4394a6_93f8_44a6_b400_33b1647ab8ab -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_aa4394a6_93f8_44a6_b400_33b1647ab8ab">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="zh">后轮距（mm）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_ab896ba2_91f0_49ea_af9b_c88c4429f1b8 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_ab896ba2_91f0_49ea_af9b_c88c4429f1b8">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="zh">轴距（mm）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_ce0ed69e_89c1_4667_a753_12f04282784d -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_ce0ed69e_89c1_4667_a753_12f04282784d">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="zh">最高车速（km/h）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_da31815e_f0de_4434_aa84_a987acb09003 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_da31815e_f0de_4434_aa84_a987acb09003">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="zh">车厢数</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_eb38c4c4_fa3b_433e_a84e_72f54a4f41ff -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_eb38c4c4_fa3b_433e_a84e_72f54a4f41ff">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="zh">电机最大扭矩（N*m）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_f2423560_66ba_4896_85d8_4688afe7dc6b -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_f2423560_66ba_4896_85d8_4688afe7dc6b">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="zh">级别</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_fffa4034_de35_4f3e_8e32_1f5d5d12a8e7 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLDataProperty_fffa4034_de35_4f3e_8e32_1f5d5d12a8e7">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="zh">价格</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -1024,6 +1809,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_391a3ac6_6622_48a3_a7c0_2e449176f374 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_391a3ac6_6622_48a3_a7c0_2e449176f374">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:label xml:lang="zh">插电式混动</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_395a45ef_ab94_49ef_b28c_d35d01ea87db -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_395a45ef_ab94_49ef_b28c_d35d01ea87db">
@@ -1650,6 +2444,15 @@
     <owl:Class rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_5ec3ea67_b83b_41cd_9bb2_dc0f1097c954">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_ee7f0798_8c44_4549_817c_562ad5a372cc"/>
         <rdfs:label xml:lang="zh">往复锯</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_5eeb1c98_acfc_4b48_890d_3aaddb862ab8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_5eeb1c98_acfc_4b48_890d_3aaddb862ab8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:label xml:lang="zh">纯电动</rdfs:label>
     </owl:Class>
     
 
@@ -2310,6 +3113,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="zh">正极材料</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_85fe8ed0_0e86_44c0_9831_947cc4e02aff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_85fe8ed0_0e86_44c0_9831_947cc4e02aff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c284e490_c822_498e_b6ab_84964459baaa"/>
+        <rdfs:label xml:lang="zh">油电混合</rdfs:label>
     </owl:Class>
     
 
@@ -4341,6 +5153,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_05ca2fa3_5636_4d85_a2f7_dd2e9cb445e0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_05ca2fa3_5636_4d85_a2f7_dd2e9cb445e0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">天津松正</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_05f082a7_0c0c_4fa3_a907_a3b9ebe98e60 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_05f082a7_0c0c_4fa3_a907_a3b9ebe98e60">
@@ -4404,6 +5225,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_09a8f882_8ef9_4d7f_ad60_218f66d741a8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_09a8f882_8ef9_4d7f_ad60_218f66d741a8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">Somika</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_0ac20e82_152c_4612_8a4d_3abc6bf34d76 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_0ac20e82_152c_4612_8a4d_3abc6bf34d76">
@@ -4422,11 +5252,29 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_0cac84ce_827e_43a5_a3ad_2dd925c1ad99 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_0cac84ce_827e_43a5_a3ad_2dd925c1ad99">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">汇川技术</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_0cee68a9_e5c6_4c23_8799_7a6de6904eab -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_0cee68a9_e5c6_4c23_8799_7a6de6904eab">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c5d8d983_187d_4d1c_80d2_8a2a27c95d3f"/>
         <rdfs:label xml:lang="zh">沧州明珠</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_0db8bd39_0240_4faf_938f_58d60c07c670 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_0db8bd39_0240_4faf_938f_58d60c07c670">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_5eeb1c98_acfc_4b48_890d_3aaddb862ab8"/>
+        <rdfs:label xml:lang="zh">比亚迪e6 2017款 400 豪华版</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4454,6 +5302,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_0f7dbbf2_0535_4025_85d2_5cf3484f45ca">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_7346a2c9_3cee_4234_81a2_763c3716251f"/>
         <rdfs:label xml:lang="zh">阿基波罗</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_10a2d53a_0139_44be_bc62_97719998878f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_10a2d53a_0139_44be_bc62_97719998878f">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">纳川股份</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4547,6 +5404,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_1d9c4186_77b6_4f5f_b5d2_bff43e3b5fc8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_1d9c4186_77b6_4f5f_b5d2_bff43e3b5fc8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_5eeb1c98_acfc_4b48_890d_3aaddb862ab8"/>
+        <rdfs:label xml:lang="zh">宋EV300 2017款 豪华型</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_1efd6d49_ec02_419f_86e3_2e64aa54a360 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_1efd6d49_ec02_419f_86e3_2e64aa54a360">
@@ -4554,6 +5420,15 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_85441fd2_83fb_4ba1_aba4_b829f542e05b"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_f0129a5b_b6d1_4448_b1a0_a6a059afa508"/>
         <rdfs:label xml:lang="zh">伟世通</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_1f8f095c_ee04_41fc_9982_93acf811477b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_1f8f095c_ee04_41fc_9982_93acf811477b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">精进电动</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4576,6 +5451,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_2195c155_a044_4fdd_bbb2_a4cfcf071ec4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_2195c155_a044_4fdd_bbb2_a4cfcf071ec4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_391a3ac6_6622_48a3_a7c0_2e449176f374"/>
+        <rdfs:label xml:lang="zh">宋DM 2017款 1.5TID 全时四驱尊荣型</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_21c4a705_9ca4_4b16_aca1_57d9070eaa17 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_21c4a705_9ca4_4b16_aca1_57d9070eaa17">
@@ -4594,11 +5478,29 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_233b0d81_0595_422f_95d4_2c562e961516 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_233b0d81_0595_422f_95d4_2c562e961516">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">上海大郡</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_23f11a80_c2f3_4af1_ace4_a599c1e772fb -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_23f11a80_c2f3_4af1_ace4_a599c1e772fb">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_557c48b7_f7ba_45e5_9a20_412e5db0e602"/>
         <rdfs:label xml:lang="zh">KONI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_24f336ea_b9ce_4625_80bc_d584d8646040 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_24f336ea_b9ce_4625_80bc_d584d8646040">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">一汽</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4617,6 +5519,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_25eedbc2_7ca9_4dcc_b193_1ad20550e76b">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_59ec6496_0922_4066_978c_4f71e34686e2"/>
         <rdfs:label xml:lang="zh">中国石油</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_2655fddf_83fa_46f8_8286_99ddbba096e5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_2655fddf_83fa_46f8_8286_99ddbba096e5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">上海电驱动</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4703,6 +5614,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_2f86aae3_7b18_479c_b33f_c4fedd637c86 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_2f86aae3_7b18_479c_b33f_c4fedd637c86">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_5eeb1c98_acfc_4b48_890d_3aaddb862ab8"/>
+        <rdfs:label xml:lang="zh">比亚迪e6 2017款 400 尊贵版</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_2fbb0b5a_84e8_49f2_b06e_784753f2adb7 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_2fbb0b5a_84e8_49f2_b06e_784753f2adb7">
@@ -4730,6 +5650,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_31ec68cf_606d_4b41_9d82_bb9b461ec575 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_31ec68cf_606d_4b41_9d82_bb9b461ec575">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">美国OMG</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_32c6e610_e055_473f_a046_9154001b9214 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_32c6e610_e055_473f_a046_9154001b9214">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_5eeb1c98_acfc_4b48_890d_3aaddb862ab8"/>
+        <rdfs:label xml:lang="zh">比亚迪e6 2017款 400 精英版</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_33c3fd4b_6ae4_4e40_92ee_2a49c09b6f60 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_33c3fd4b_6ae4_4e40_92ee_2a49c09b6f60">
@@ -4744,6 +5682,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_33fda26e_ed79_4467_b3c5_68e4f73b9cef">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_d2066dd4_fb92_45d6_986b_a5b9333aaf5a"/>
         <rdfs:label xml:lang="zh">石原产业</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_34053df0_e67c_42ce_9069_4025dab73947 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_34053df0_e67c_42ce_9069_4025dab73947">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">东风</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4796,6 +5743,7 @@
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_35c0b997_4925_48f9_9a90_5be4a62719b6 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_35c0b997_4925_48f9_9a90_5be4a62719b6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_6557ac67_279a_499c_958c_5771378cc771"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_7c67a242_034b_4cbe_9714_055cdc54e4c5"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_f01946a3_c54e_4ed1_a628_df6e9760ac09"/>
@@ -4849,11 +5797,29 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_39781078_bc28_4796_b251_9fab13336a81 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_39781078_bc28_4796_b251_9fab13336a81">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">加拿大Inco</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_3aa69bf1_75e8_4273_9c0c_eba008831474 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_3aa69bf1_75e8_4273_9c0c_eba008831474">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_1be8a830_3a85_43ce_874e_64de9b3507af"/>
         <rdfs:label xml:lang="zh">西门子VDO</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_3c01f106_551f_4de8_b64f_70730330db04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_3c01f106_551f_4de8_b64f_70730330db04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">俄罗斯斯诺里斯克</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4903,6 +5869,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_3fde38b1_4e36_472c_aa0f_2f61671e8d00 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_3fde38b1_4e36_472c_aa0f_2f61671e8d00">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_391a3ac6_6622_48a3_a7c0_2e449176f374"/>
+        <rdfs:label xml:lang="zh">秦 2017款 1.5T 尊贵型</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_40406843_2909_403b_b311_dcc9fafb681d -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_40406843_2909_403b_b311_dcc9fafb681d">
@@ -4935,6 +5910,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_42b9ee21_18b7_4955_a182_dcd3b9dbfd71">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_85ca5eca_8441_4ce8_acac_5f7a2439d886"/>
         <rdfs:label xml:lang="zh">日亚化学</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_438b3d7a_f22f_4ca2_9bb1_ebb24cfdb510 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_438b3d7a_f22f_4ca2_9bb1_ebb24cfdb510">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">Freeport</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5044,6 +6028,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_49dccb72_1564_47c6_a3c9_20dc1227220e">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_557c48b7_f7ba_45e5_9a20_412e5db0e602"/>
         <rdfs:label xml:lang="zh">蒂森克虏伯-倍斯登</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_4a1d073f_4d0b_4e82_bd01_26aa62f6280b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_4a1d073f_4d0b_4e82_bd01_26aa62f6280b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">五洲龙</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5174,6 +6167,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_55dc3e3e_11ee_4233_a602_66138b27a9d7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_55dc3e3e_11ee_4233_a602_66138b27a9d7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">华友钴业</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_560ef89f_5a11_40b5_8ce3_ac2526ae87b2 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_560ef89f_5a11_40b5_8ce3_ac2526ae87b2">
@@ -5188,6 +6190,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_567db4ca_56d5_477b_8443_a7e7a3fc70c7">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c5d8d983_187d_4d1c_80d2_8a2a27c95d3f"/>
         <rdfs:label xml:lang="zh">金辉高科</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_5688ed41_ae2d_4cef_9893_b36ed2fa579e -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_5688ed41_ae2d_4cef_9893_b36ed2fa579e">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_5eeb1c98_acfc_4b48_890d_3aaddb862ab8"/>
+        <rdfs:label xml:lang="zh">秦EV300 2017款 精英型</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5237,6 +6248,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_59d8d991_4a3b_4c6b_bf38_f224ddda2adb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_59d8d991_4a3b_4c6b_bf38_f224ddda2adb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_5eeb1c98_acfc_4b48_890d_3aaddb862ab8"/>
+        <rdfs:label xml:lang="zh">比亚迪e5 2017款 300 尊贵型</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_59f27721_03f1_4929_82a1_fe9d98466b7b -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_59f27721_03f1_4929_82a1_fe9d98466b7b">
@@ -5251,6 +6271,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_5a1890cd_4163_422f_9336_4ec57b24a0d1">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_7c67a242_034b_4cbe_9714_055cdc54e4c5"/>
         <rdfs:label xml:lang="zh">亚太机电</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_5aede9f4_4fcd_4f9b_9f5b_ba51a17e0adb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_5aede9f4_4fcd_4f9b_9f5b_ba51a17e0adb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">Trafgura</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5278,6 +6307,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_5e83e6f0_2788_427d_ab27_62115839bc47">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_7346a2c9_3cee_4234_81a2_763c3716251f"/>
         <rdfs:label xml:lang="zh">爱德克斯</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_5f22069b_f719_4090_bd98_9cc5941102fc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_5f22069b_f719_4090_bd98_9cc5941102fc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">腾远</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5323,6 +6361,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_6085b747_10a1_4bab_a135_e0e595f60271">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_d2066dd4_fb92_45d6_986b_a5b9333aaf5a"/>
         <rdfs:label xml:lang="zh">日立粉末</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_60e6f650_27b4_4b36_84b1_62a90716ba8d -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_60e6f650_27b4_4b36_84b1_62a90716ba8d">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">二汽</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5381,6 +6428,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_66bb04ba_71db_430d_a863_7d63912fbf55 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_66bb04ba_71db_430d_a863_7d63912fbf55">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_391a3ac6_6622_48a3_a7c0_2e449176f374"/>
+        <rdfs:label xml:lang="zh">唐 2017款 2.0T 全时四驱豪雅型</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_66dbf7fd_a273_4d25_b717_d1be18349a9f -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_66dbf7fd_a273_4d25_b717_d1be18349a9f">
@@ -5395,6 +6451,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_67574b4f_00c4_4aec_9075_7263f9a5e658">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_7c67a242_034b_4cbe_9714_055cdc54e4c5"/>
         <rdfs:label xml:lang="zh">启明信息</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_67b7bb43_5ec3_482b_8be0_0d64d3cde99c -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_67b7bb43_5ec3_482b_8be0_0d64d3cde99c">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">Chemaf</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5453,6 +6518,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_6bddf18e_3f9f_41d9_9378_b60b7a309e06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_6bddf18e_3f9f_41d9_9378_b60b7a309e06">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_5eeb1c98_acfc_4b48_890d_3aaddb862ab8"/>
+        <rdfs:label xml:lang="zh">宋EV300 2017款 尊贵型</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_6ddb4b48_1946_4cf1_86e4_a06455fb7ff4 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_6ddb4b48_1946_4cf1_86e4_a06455fb7ff4">
@@ -5467,6 +6541,24 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_6e081e78_a005_4eef_a16b_7b4018e77fae">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_85ca5eca_8441_4ce8_acac_5f7a2439d886"/>
         <rdfs:label xml:lang="zh">巴莫科技</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_702c1a9a_1f4c_4c5e_9fe0_bf0a36c3eedd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_702c1a9a_1f4c_4c5e_9fe0_bf0a36c3eedd">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">金昌长庆金属粉末</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_7091c679_c1aa_4af7_838d_b764605b5a22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_7091c679_c1aa_4af7_838d_b764605b5a22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">有研粉末新材料</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5514,6 +6606,15 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_34affee6_7bb6_4ea0_8559_03d90b6f4aa0"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_f0129a5b_b6d1_4448_b1a0_a6a059afa508"/>
         <rdfs:label xml:lang="zh">佛吉亚</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_7652d17a_67ad_4f80_bf6d_155d51610640 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_7652d17a_67ad_4f80_bf6d_155d51610640">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_5eeb1c98_acfc_4b48_890d_3aaddb862ab8"/>
+        <rdfs:label xml:lang="zh">秦EV300 2017款 尊享型</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5608,6 +6709,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_7d1c0b8f_dcbb_4ae4_bece_4c6c3402819c -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_7d1c0b8f_dcbb_4ae4_bece_4c6c3402819c">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_5eeb1c98_acfc_4b48_890d_3aaddb862ab8"/>
+        <rdfs:label xml:lang="zh">比亚迪e5 2017款 300 尊荣型</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_7d289b59_20cc_48c4_89c9_ef8bb45ae242 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_7d289b59_20cc_48c4_89c9_ef8bb45ae242">
@@ -5662,11 +6772,47 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_7fb73f24_5ad0_498c_9c23_cf9fbb4854b0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_7fb73f24_5ad0_498c_9c23_cf9fbb4854b0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_391a3ac6_6622_48a3_a7c0_2e449176f374"/>
+        <rdfs:label xml:lang="zh">唐100 2017款 2.0T</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_80a4cd0b_e610_489e_bc14_af75a2742e6c -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_80a4cd0b_e610_489e_bc14_af75a2742e6c">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">江特电机</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_80b3d2d8_f394_4212_8c76_104ab4c780a4 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_80b3d2d8_f394_4212_8c76_104ab4c780a4">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_c5d8d983_187d_4d1c_80d2_8a2a27c95d3f"/>
         <rdfs:label xml:lang="zh">河南义腾</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_815163cd_fdba_4483_a63e_600723d6c1c4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_815163cd_fdba_4483_a63e_600723d6c1c4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">日本川铁采矿</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_829f83d1_b387_41bb_8332_89c7b2039a0f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_829f83d1_b387_41bb_8332_89c7b2039a0f">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">卧龙电气</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5735,6 +6881,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_87ffca7f_e849_4be3_8bc1_accdc44c4679 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_87ffca7f_e849_4be3_8bc1_accdc44c4679">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">基恩镍业</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_88e67502_12d7_4cc4_8690_2292a679dbd9 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_88e67502_12d7_4cc4_8690_2292a679dbd9">
@@ -5767,6 +6922,24 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_8a4f482e_f514_462d_9234_67c982d99589">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_34affee6_7bb6_4ea0_8559_03d90b6f4aa0"/>
         <rdfs:label xml:lang="zh">全耐塑料</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_8a65cf77_17c3_47ec_ace9_f1a4f0337fed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_8a65cf77_17c3_47ec_ace9_f1a4f0337fed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">信质电机</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_8d27f6c8_25b4_4389_aeb8_b486baed871e -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_8d27f6c8_25b4_4389_aeb8_b486baed871e">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">南通新玮</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5879,6 +7052,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_973a2d73_a1a1_4c3b_8cc7_0ef68c5fa65d -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_973a2d73_a1a1_4c3b_8cc7_0ef68c5fa65d">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">中国中冶</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_97f7ee7b_0071_4e50_ac54_31d849d20e9e -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_97f7ee7b_0071_4e50_ac54_31d849d20e9e">
@@ -5897,11 +7079,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_994be281_4037_4fb3_a73c_c850287caf66 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_994be281_4037_4fb3_a73c_c850287caf66">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">Forrest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_9a21a3ef_0ff9_41c7_be0c_32116ee9a3bd -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_9a21a3ef_0ff9_41c7_be0c_32116ee9a3bd">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_f01946a3_c54e_4ed1_a628_df6e9760ac09"/>
         <rdfs:label xml:lang="zh">德国Li-Tec</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_9d2542c6_3a58_4a7e_9a1f_2b49175b0e95 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_9d2542c6_3a58_4a7e_9a1f_2b49175b0e95">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">正海磁材</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_9e62eec6_8dc0_4185_a43b_c3d95970d102 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_9e62eec6_8dc0_4185_a43b_c3d95970d102">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">宁波翰升</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5933,6 +7142,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_a0246d97_034a_4fc7_909e_45844f450ace -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_a0246d97_034a_4fc7_909e_45844f450ace">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">上汽</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_a163e339_362c_4567_b182_ed518443888c -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_a163e339_362c_4567_b182_ed518443888c">
@@ -5960,6 +7178,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_a2d57502_1ff8_43bd_8980_2bf06bc31311 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_a2d57502_1ff8_43bd_8980_2bf06bc31311">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">寒锐钴业</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_a3346c02_b413_4f99_921d_f0c81f366b7a -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_a3346c02_b413_4f99_921d_f0c81f366b7a">
@@ -5974,6 +7201,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_a34c3b72_bdb2_4bc5_9867_23a5ec2289d2">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_3cc204f8_b26f_4bfa_b220_9a131c876eca"/>
         <rdfs:label xml:lang="zh">众业达</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_a41daa4e_dee0_4e2c_a672_3e4d0e40ca9f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_a41daa4e_dee0_4e2c_a672_3e4d0e40ca9f">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_391a3ac6_6622_48a3_a7c0_2e449176f374"/>
+        <rdfs:label xml:lang="zh">秦100 2017款 1.5T</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6131,6 +7367,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_b050cf1f_9963_4380_895b_ad282d358806 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_b050cf1f_9963_4380_895b_ad282d358806">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">金岭矿业</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_b088bac7_dbb4_44c4_ae3c_fa594fdd3c51 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_b088bac7_dbb4_44c4_ae3c_fa594fdd3c51">
@@ -6230,6 +7475,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_b7e54eb8_f796_4d96_89cc_776ceb9e5bf3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_b7e54eb8_f796_4d96_89cc_776ceb9e5bf3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">中国南车</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_b7f6c12f_824c_4c61_9f65_d850a3b40fbd -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_b7f6c12f_824c_4c61_9f65_d850a3b40fbd">
@@ -6302,6 +7556,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_c0e1b39d_25c0_4e6c_a201_5098d1913d11">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_f01946a3_c54e_4ed1_a628_df6e9760ac09"/>
         <rdfs:label xml:lang="zh">AESC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_c141505e_8cc3_4ea9_8354_86bab9d279cf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_c141505e_8cc3_4ea9_8354_86bab9d279cf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_391a3ac6_6622_48a3_a7c0_2e449176f374"/>
+        <rdfs:label xml:lang="zh">宋DM 2017款 1.5TID 全时四驱尊贵型</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6442,6 +7705,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_cb491b12_e91a_4d75_beaf_fc4a5a288394 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_cb491b12_e91a_4d75_beaf_fc4a5a288394">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_391a3ac6_6622_48a3_a7c0_2e449176f374"/>
+        <rdfs:label xml:lang="zh">唐 2017款 2.0T 全时四驱豪华型</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_cbca09ce_d461_43fe_9216_79dbf0d11d45 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_cbca09ce_d461_43fe_9216_79dbf0d11d45">
@@ -6482,6 +7754,28 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_34affee6_7bb6_4ea0_8559_03d90b6f4aa0"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_5cc3668f_b28b_4cab_bb8e_317a6e39b90b"/>
         <rdfs:label xml:lang="zh">麦格纳国际公司</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_ce8ae016_5ddf_4746_8f6b_c3e90eeda759 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_ce8ae016_5ddf_4746_8f6b_c3e90eeda759">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_5eeb1c98_acfc_4b48_890d_3aaddb862ab8"/>
+        <OWLDataProperty_0c003981_f5f9_4d00_babf_ac2ca768f079 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1765</OWLDataProperty_0c003981_f5f9_4d00_babf_ac2ca768f079>
+        <OWLDataProperty_13088fdb_a70a_4438_801d_21837e186ea9 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4680</OWLDataProperty_13088fdb_a70a_4438_801d_21837e186ea9>
+        <OWLDataProperty_1f25a4ee_e10f_41ab_9515_722c36497bc9 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1500</OWLDataProperty_1f25a4ee_e10f_41ab_9515_722c36497bc9>
+        <OWLDataProperty_32c5566b_a719_4e31_b497_a2202fc1ebb6 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</OWLDataProperty_32c5566b_a719_4e31_b497_a2202fc1ebb6>
+        <OWLDataProperty_349eaa4c_f943_47c0_9feb_831204e4ee8d rdf:datatype="http://www.w3.org/2001/XMLSchema#int">305</OWLDataProperty_349eaa4c_f943_47c0_9feb_831204e4ee8d>
+        <OWLDataProperty_3939cf32_8117_4be6_b00b_9a031551e496 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">160</OWLDataProperty_3939cf32_8117_4be6_b00b_9a031551e496>
+        <OWLDataProperty_4d26d642_fd2e_4f2b_9a2f_653cbed2f5c0 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</OWLDataProperty_4d26d642_fd2e_4f2b_9a2f_653cbed2f5c0>
+        <OWLDataProperty_52652d69_bb51_46a4_b387_8b8118e7b52c rdf:datatype="http://www.w3.org/2001/XMLSchema#int">450</OWLDataProperty_52652d69_bb51_46a4_b387_8b8118e7b52c>
+        <OWLDataProperty_81782d86_bd32_40b9_9d88_57d77124bc8d rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1525</OWLDataProperty_81782d86_bd32_40b9_9d88_57d77124bc8d>
+        <OWLDataProperty_aa4394a6_93f8_44a6_b400_33b1647ab8ab rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1520</OWLDataProperty_aa4394a6_93f8_44a6_b400_33b1647ab8ab>
+        <OWLDataProperty_ab896ba2_91f0_49ea_af9b_c88c4429f1b8 rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2660</OWLDataProperty_ab896ba2_91f0_49ea_af9b_c88c4429f1b8>
+        <OWLDataProperty_da31815e_f0de_4434_aa84_a987acb09003 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</OWLDataProperty_da31815e_f0de_4434_aa84_a987acb09003>
+        <OWLDataProperty_eb38c4c4_fa3b_433e_a84e_72f54a4f41ff rdf:datatype="http://www.w3.org/2001/XMLSchema#int">310</OWLDataProperty_eb38c4c4_fa3b_433e_a84e_72f54a4f41ff>
+        <rdfs:label xml:lang="zh">比亚迪e5 2017款 300 e享型</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6632,6 +7926,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_daa09e0c_0bfb_48b8_8fba_b3c8aa25ad69 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_daa09e0c_0bfb_48b8_8fba_b3c8aa25ad69">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">金川集团</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_dad36300_364c_44a1_9df6_a87190ffe84b -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_dad36300_364c_44a1_9df6_a87190ffe84b">
@@ -6709,6 +8012,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_deb510bb_1ebf_4af0_ad46_0a9d162d916c">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_cdc136a4_7cd9_44eb_bea5_d058f4ed3c69"/>
         <rdfs:label xml:lang="zh">可隆</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_dedda153_8e54_499b_9c48_08c612ce5156 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_dedda153_8e54_499b_9c48_08c612ce5156">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">格林美</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6810,6 +8122,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_e85f4d88_d9a2_4e87_b9b0_1c022eba2334 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_e85f4d88_d9a2_4e87_b9b0_1c022eba2334">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">澳大利亚西澳矿产</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_ea09846a_e9e6_43c7_8b48_8297e66ba216 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_ea09846a_e9e6_43c7_8b48_8297e66ba216">
@@ -6833,6 +8154,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_eb5e312f_2eac_475f_ba91_d3db77250795">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_cb93958e_d8c1_471c_ad46_a69f2ed5f46e"/>
         <rdfs:label xml:lang="zh">四川有色</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_ebb00e7d_2b68_4b4d_8642_d57e593da168 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_ebb00e7d_2b68_4b4d_8642_d57e593da168">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_5eeb1c98_acfc_4b48_890d_3aaddb862ab8"/>
+        <rdfs:label xml:lang="zh">秦EV300 2017款 旗舰型</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6936,6 +8266,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_f11fcce9_da88_44b6_908f_614da97e9bdc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_f11fcce9_da88_44b6_908f_614da97e9bdc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_391a3ac6_6622_48a3_a7c0_2e449176f374"/>
+        <rdfs:label xml:lang="zh">宋DM 2017款 1.5TID 全时四驱豪华型</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_f1c4c877_241c_45a0_a430_881449de6c5f -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_f1c4c877_241c_45a0_a430_881449de6c5f">
@@ -6950,6 +8289,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_f1cf8b0a_b185_4f84_90e0_22f8cfb4f526">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_f01946a3_c54e_4ed1_a628_df6e9760ac09"/>
         <rdfs:label xml:lang="zh">Maxwell</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_f1f8dd6f_3b6a_4810_a242_3072bc95bdff -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_f1f8dd6f_3b6a_4810_a242_3072bc95bdff">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">俄罗斯矿产金属</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6972,6 +8320,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_f5732d58_694e_4098_954e_5fa3dc87674e -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_f5732d58_694e_4098_954e_5fa3dc87674e">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_4dd2566d_1bb8_4c76_af29_78cb783adf67"/>
+        <rdfs:label xml:lang="zh">大洋电机</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_f573319d_d945_461a_b6ef_76d91cbe5b3e -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_f573319d_d945_461a_b6ef_76d91cbe5b3e">
@@ -6981,11 +8338,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_f6a1b8f4_1b09_4d61_adf1_656b8761f758 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_f6a1b8f4_1b09_4d61_adf1_656b8761f758">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">ERNC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_f7e3a079_df97_4f3e_84c8_70f2918ca62c -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_f7e3a079_df97_4f3e_84c8_70f2918ca62c">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">海亮集团</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_fc000248_464c_420a_8906_edd6f3e2836c -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_fc000248_464c_420a_8906_edd6f3e2836c">
         <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_85ca5eca_8441_4ce8_acac_5f7a2439d886"/>
         <rdfs:label xml:lang="zh">海南杉杉</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_fd3ba20a_bf2f_42af_b4c6_9c163a11f0cc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLNamedIndividual_fd3ba20a_bf2f_42af_b4c6_9c163a11f0cc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zouchen/ontologies/2018/2/新能源汽车#OWLClass_99aae93b_b194_4cfd_a847_503d5846e25f"/>
+        <rdfs:label xml:lang="zh">嘉利珂</rdfs:label>
     </owl:NamedIndividual>
     
 
