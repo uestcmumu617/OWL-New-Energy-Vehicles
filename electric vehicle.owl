@@ -1,0 +1,2831 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#"
+     xml:base="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLObjectProperty_281c80b6_e670_41d5_9c0e_c03180888019 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLObjectProperty_281c80b6_e670_41d5_9c0e_c03180888019">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#企业"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8481a15f_f347_4c4f_b6f3_50f8466ba1a0"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8de450da_13e0_45e9_ae28_4d310dd602d7"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="zh">拥有</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLObjectProperty_63454738_8577_4cb8_b595_700a11d6f199 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLObjectProperty_63454738_8577_4cb8_b595_700a11d6f199">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车制造商"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">召回</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLObjectProperty_665979f1_00fa_44a0_af45_bc21754a7e11 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLObjectProperty_665979f1_00fa_44a0_af45_bc21754a7e11">
+        <rdfs:label xml:lang="zh">出口</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLObjectProperty_7e6775dd_7c2d_4a56_aecc_57fd6259b4fa -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLObjectProperty_7e6775dd_7c2d_4a56_aecc_57fd6259b4fa">
+        <rdfs:label xml:lang="zh">入选</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLObjectProperty_d371ece8_d0cf_4cc0_8eb8_6f1cb98f2a96 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLObjectProperty_d371ece8_d0cf_4cc0_8eb8_6f1cb98f2a96">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLObjectProperty_de0d36d3_9842_49f3_8e00_633e2ec1b8a8"/>
+        <rdfs:label xml:lang="zh">提供充电服务</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLObjectProperty_de0d36d3_9842_49f3_8e00_633e2ec1b8a8 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLObjectProperty_de0d36d3_9842_49f3_8e00_633e2ec1b8a8">
+        <rdfs:label xml:lang="zh">提供服务</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#使用原料 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#使用原料">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#使用原料"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#上游产品"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#使用原料"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#原材料"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#供给 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#供给">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#供给"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#企业"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#供给"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#企业"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#供给磷酸铁锂 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#供给磷酸铁锂">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#供给"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#供给装机电池 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#供给装机电池">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#供给"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#供给锂源 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#供给锂源">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#供给"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#停产 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#停产"/>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#参股 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#参股">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#股份投资"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#发布 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#发布"/>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#合资研发 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#合资研发">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#研发"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#子公司 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#子公司">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#股份投资"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#技术合作 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#技术合作">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#签订合作协议"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#生产 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#生产"/>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#研发 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#研发">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#研发"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#企业"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#签订合作协议 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#签订合作协议"/>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#股份投资 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#股份投资"/>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#自主研发 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#自主研发">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#研发"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#购销合作 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#购销合作">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#签订合作协议"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#配置部件 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#配置部件">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#配置部件"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#配置部件"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#销售 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#销售"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_00cf6e54_2a5b_4db2_aae5_d7c946005b04 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_00cf6e54_2a5b_4db2_aae5_d7c946005b04">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池"/>
+        <rdfs:label xml:lang="zh">内阻（mΩ）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_052ed40a_4f97_41fc_b38a_3e2f9513ff7c -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_052ed40a_4f97_41fc_b38a_3e2f9513ff7c">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">高度（mm）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_0d541cce_c51b_4cf5_9965_c6f613cea491 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_0d541cce_c51b_4cf5_9965_c6f613cea491">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">轴距（mm）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_118cb9bb_517a_418f_bc67_3b118123d972 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_118cb9bb_517a_418f_bc67_3b118123d972">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">补贴</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_16323d53_9ce9_4b26_a4f7_28f105926d40 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_16323d53_9ce9_4b26_a4f7_28f105926d40">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_118cb9bb_517a_418f_bc67_3b118123d972"/>
+        <rdfs:label xml:lang="zh">地方</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_174b0811_dcab_4a31_9931_a2d796c054d0 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_174b0811_dcab_4a31_9931_a2d796c054d0">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">车门数</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_1880e91b_e35e_442c_a778_079d3f2442d7 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_1880e91b_e35e_442c_a778_079d3f2442d7">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池"/>
+        <rdfs:label xml:lang="zh">充放电截止电压（V）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_2c00488b_6e26_4e33_a4e1_5e7ad7b68302 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_2c00488b_6e26_4e33_a4e1_5e7ad7b68302">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池"/>
+        <rdfs:label xml:lang="zh">工作温度范围（℃）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_39e409ab_8185_423c_a9ee_7cb87ab96521 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_39e409ab_8185_423c_a9ee_7cb87ab96521">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">电机最大扭矩（N*m）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_3cb95d61_d9fc_457d_930c_54de167853c2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_3cb95d61_d9fc_457d_930c_54de167853c2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_d5a42704_a0ea_4ce5_a562_29b3ffd6a8b1"/>
+        <rdfs:label xml:lang="zh">距离（km）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_41ba9292_cfba_4e79_8cfb_b3e5d918c73b -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_41ba9292_cfba_4e79_8cfb_b3e5d918c73b">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">上市时间</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_49648008_db46_4029_8ab8_8f3cd4e8b305 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_49648008_db46_4029_8ab8_8f3cd4e8b305">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">长度（mm）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_497ac5f3_28ec_4058_b4bd_95512d9e052a -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_497ac5f3_28ec_4058_b4bd_95512d9e052a">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池"/>
+        <rdfs:label xml:lang="zh">额定容量（mAh）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_4b18c771_5d15_481b_ab8a_9fad862e05f8 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_4b18c771_5d15_481b_ab8a_9fad862e05f8">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">最小转弯半径（m）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_5386011e_461e_4dc4_aaff_f0ec6a603c04 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_5386011e_461e_4dc4_aaff_f0ec6a603c04">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">最高车速（km/h）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_58f250c7_73e1_43f7_80d0_7f0490b27962 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_58f250c7_73e1_43f7_80d0_7f0490b27962">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">电机最大功率（kW）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_604dbdb8_e5ce_4753_ab47_9401c4e99aba -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_604dbdb8_e5ce_4753_ab47_9401c4e99aba">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池"/>
+        <rdfs:label xml:lang="zh">工作电压（V）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_66c81aff_af3a_4865_b2e0_6b3a0e179ce7 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_66c81aff_af3a_4865_b2e0_6b3a0e179ce7">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">后轮距（mm）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_6d598229_8efb_4cae_9eb6_11c9949b74e9 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_6d598229_8efb_4cae_9eb6_11c9949b74e9">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_d5a42704_a0ea_4ce5_a562_29b3ffd6a8b1"/>
+        <rdfs:label xml:lang="zh">时间（年）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_6e82bb63_609f_4fc3_93a5_6dd6c2e766ad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_6e82bb63_609f_4fc3_93a5_6dd6c2e766ad">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">行李箱容积（L）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_79599491_6d7d_44c0_b3bb_7a408d7fff65 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_79599491_6d7d_44c0_b3bb_7a408d7fff65">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_118cb9bb_517a_418f_bc67_3b118123d972"/>
+        <rdfs:label xml:lang="zh">国家</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_7db6db60_f5a5_4525_8f2e_5d0f78cd895a -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_7db6db60_f5a5_4525_8f2e_5d0f78cd895a">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">价格</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_82ad9eaf_6b84_49f5_8dbe_19b6cf82693f -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_82ad9eaf_6b84_49f5_8dbe_19b6cf82693f">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">座位数</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_90afc0b3_a552_4d7a_abd1_fd7487369638 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_90afc0b3_a552_4d7a_abd1_fd7487369638">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池"/>
+        <rdfs:label xml:lang="zh">开路电压（V）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_aed118de_c05a_4a52_989d_531340f732a6 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_aed118de_c05a_4a52_989d_531340f732a6">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池"/>
+        <rdfs:label xml:lang="zh">自放电（%/月）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_bbd37fd4_ac53_481a_9702_294b0eb6610d -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_bbd37fd4_ac53_481a_9702_294b0eb6610d">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池"/>
+        <rdfs:label xml:lang="zh">循环寿命（次）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_c6261a01_a31c_4c0f_abf0_66e99eab77cb -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_c6261a01_a31c_4c0f_abf0_66e99eab77cb">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">车厢数</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_c9ada082_a719_4f56_96dc_7648e210ced6 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_c9ada082_a719_4f56_96dc_7648e210ced6">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">纯电续航里程（km）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_c9b8ba3c_12a7_4571_a3bd_b31afbe74551 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_c9b8ba3c_12a7_4571_a3bd_b31afbe74551">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池"/>
+        <rdfs:label xml:lang="zh">能量密度（Wh/kg）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_d5a42704_a0ea_4ce5_a562_29b3ffd6a8b1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_d5a42704_a0ea_4ce5_a562_29b3ffd6a8b1">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">整车质保</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_ea5a9831_725e_4b13_8982_43eea0b58c16 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_ea5a9831_725e_4b13_8982_43eea0b58c16">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">前轮距（mm）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_f768e790_e1d1_477e_b3a7_d4d557e61ca4 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_f768e790_e1d1_477e_b3a7_d4d557e61ca4">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池"/>
+        <rdfs:label xml:lang="zh">充放电倍率（C）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_fadaa946_51f6_41dd_8d94_bedc4be64051 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLDataProperty_fadaa946_51f6_41dd_8d94_bedc4be64051">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+        <rdfs:label xml:lang="zh">宽度（mm）</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#NCA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#NCA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#三元锂材料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#NCM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#NCM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#三元锂材料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#NCM333 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#NCM333">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#NCM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#NCM523 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#NCM523">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#NCM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#NCM622 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#NCM622">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#NCM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#NCM811 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#NCM811">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#NCM"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_01e18753_0f05_4b04_991c_9cf25e8d19f4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_01e18753_0f05_4b04_991c_9cf25e8d19f4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_7c61a06e_4dff_4267_bce6_8020d6bc92f7"/>
+        <rdfs:label xml:lang="zh">国家发改委创新项目</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_085b1b8d_9619_464c_9c84_8b0d72478186 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_085b1b8d_9619_464c_9c84_8b0d72478186">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8481a15f_f347_4c4f_b6f3_50f8466ba1a0"/>
+        <rdfs:label xml:lang="zh">产品认证</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_088b10c5_f63f_48a0_8380_ea08dcd63dcf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_088b10c5_f63f_48a0_8380_ea08dcd63dcf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_708c8a99_6cc1_49b8_b76f_0351a416fd27"/>
+        <rdfs:label xml:lang="zh">导航系统</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_0ce8b8bf_f039_4a69_8136_0b1f814f1639 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_0ce8b8bf_f039_4a69_8136_0b1f814f1639">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件"/>
+        <rdfs:label xml:lang="zh">智能网联</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_101fd688_36ec_4f10_aed4_bc967e35bb34 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_101fd688_36ec_4f10_aed4_bc967e35bb34">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_0ce8b8bf_f039_4a69_8136_0b1f814f1639"/>
+        <rdfs:label xml:lang="zh">网络通讯</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_14f42074_d622_4461_851d_1835603955de -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_14f42074_d622_4461_851d_1835603955de">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件"/>
+        <rdfs:label xml:lang="zh">发动机</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_17760866_89b1_4ecc_8358_8c3a7bd53a2e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_17760866_89b1_4ecc_8358_8c3a7bd53a2e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_52f80554_3495_4c8a_b4fa_b76879beece0"/>
+        <rdfs:label xml:lang="zh">转向系统</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_1a34f408_6bbf_4431_be5e_b40294b9791a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_1a34f408_6bbf_4431_be5e_b40294b9791a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_52f80554_3495_4c8a_b4fa_b76879beece0"/>
+        <rdfs:label xml:lang="zh">制动系统</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_1f5489ac_d103_4c5d_8618_d195443282ff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_1f5489ac_d103_4c5d_8618_d195443282ff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c8b6c02e_e1e2_42de_bd79_cadd7a81f13e"/>
+        <rdfs:label xml:lang="zh">锻造件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_20ecfd7f_b142_4d9b_8b7c_9abd4c21a6ac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_20ecfd7f_b142_4d9b_8b7c_9abd4c21a6ac">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_52f80554_3495_4c8a_b4fa_b76879beece0"/>
+        <rdfs:label xml:lang="zh">驱动桥</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_22d994b8_5bdf_4774_84d0_1921d17b031d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_22d994b8_5bdf_4774_84d0_1921d17b031d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8481a15f_f347_4c4f_b6f3_50f8466ba1a0"/>
+        <rdfs:label xml:lang="zh">管理体系认证</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_22e3dd17_c806_4741_8b45_0c8f638dc37d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_22e3dd17_c806_4741_8b45_0c8f638dc37d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c8b6c02e_e1e2_42de_bd79_cadd7a81f13e"/>
+        <rdfs:label xml:lang="zh">冲压件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_247f1687_31eb_4e32_a3d9_477f1efa1c4b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_247f1687_31eb_4e32_a3d9_477f1efa1c4b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_787ca8dc_77e0_496c_a433_bf452cff1a87"/>
+        <rdfs:label xml:lang="zh">汽车租赁</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_27b77500_7eb8_47e7_8744_d0e7970d5f72 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_27b77500_7eb8_47e7_8744_d0e7970d5f72">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_708c8a99_6cc1_49b8_b76f_0351a416fd27"/>
+        <rdfs:label xml:lang="zh">安全系统</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_2c562567_bc74_49cb_81af_d144cf1da8a0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_2c562567_bc74_49cb_81af_d144cf1da8a0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_708c8a99_6cc1_49b8_b76f_0351a416fd27"/>
+        <rdfs:label xml:lang="zh">智能化</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_2f787380_42ce_426e_b2b4_c5b77b782ddc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_2f787380_42ce_426e_b2b4_c5b77b782ddc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#充电桩"/>
+        <rdfs:label xml:lang="zh">插电</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_2fa2167a_5eba_4565_a64c_6122d76fdcfb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_2fa2167a_5eba_4565_a64c_6122d76fdcfb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_89025500_0026_4246_a0bd_89e8d72ab72d"/>
+        <rdfs:label xml:lang="zh">车身本体白车身</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_31d9b91c_5356_4701_9d7a_548b70197e37 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_31d9b91c_5356_4701_9d7a_548b70197e37">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_708c8a99_6cc1_49b8_b76f_0351a416fd27"/>
+        <rdfs:label xml:lang="zh">照明系统</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_33376c62_b878_491b_8e6c_bde11ff1ab07 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_33376c62_b878_491b_8e6c_bde11ff1ab07">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_14f42074_d622_4461_851d_1835603955de"/>
+        <rdfs:label xml:lang="zh">发动机总成</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_3639f89f_a493_463d_b319_dfbd1eaad623 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_3639f89f_a493_463d_b319_dfbd1eaad623">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_89025500_0026_4246_a0bd_89e8d72ab72d"/>
+        <rdfs:label xml:lang="zh">装饰条</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_36703c5f_b634_4646_b786_28055f36c9b5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_36703c5f_b634_4646_b786_28055f36c9b5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c8b6c02e_e1e2_42de_bd79_cadd7a81f13e"/>
+        <rdfs:label xml:lang="zh">机加工件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_370b5386_6976_432a_8438_daa3f4704ff8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_370b5386_6976_432a_8438_daa3f4704ff8">
+        <rdfs:label xml:lang="zh">国家和地区</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_397fdefe_9ee0_4ef8_a969_0e3aeeaefd76 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_397fdefe_9ee0_4ef8_a969_0e3aeeaefd76">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_708c8a99_6cc1_49b8_b76f_0351a416fd27"/>
+        <rdfs:label xml:lang="zh">线束和接头</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_3a4472d4_60b5_42d3_99ff_4cf887cdff61 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_3a4472d4_60b5_42d3_99ff_4cf887cdff61">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c8b6c02e_e1e2_42de_bd79_cadd7a81f13e"/>
+        <rdfs:label xml:lang="zh">焊接件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_3c65e775_19af_427e_b5e1_a4a89b808c87 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_3c65e775_19af_427e_b5e1_a4a89b808c87">
+        <rdfs:label xml:lang="zh">目录</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_3e862e4d_8494_4fbd_a254_2e789524225b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_3e862e4d_8494_4fbd_a254_2e789524225b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8de450da_13e0_45e9_ae28_4d310dd602d7"/>
+        <rdfs:label xml:lang="zh">专利权</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_3f76566e_f493_405d_9e84_00a39e9ed091 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_3f76566e_f493_405d_9e84_00a39e9ed091">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_aec7d93e_e0d3_47e3_a0fe_9dcb2de205e5"/>
+        <rdfs:label xml:lang="zh">衬套</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_40862a55_d43f_477d_9726_66a3494cbcea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_40862a55_d43f_477d_9726_66a3494cbcea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_14f42074_d622_4461_851d_1835603955de"/>
+        <rdfs:label xml:lang="zh">冷却系统</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_442fa6d0_bbcb_4967_9d41_2d878a8c7c1d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_442fa6d0_bbcb_4967_9d41_2d878a8c7c1d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_708c8a99_6cc1_49b8_b76f_0351a416fd27"/>
+        <rdfs:label xml:lang="zh">多媒体系统</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_466d461b_e88f_4073_8d3a_e053b62a3eee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_466d461b_e88f_4073_8d3a_e053b62a3eee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_52f80554_3495_4c8a_b4fa_b76879beece0"/>
+        <rdfs:label xml:lang="zh">离合器</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_4e01363b_62a1_43d5_8ac8_4eff35cdb8fb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_4e01363b_62a1_43d5_8ac8_4eff35cdb8fb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c8b6c02e_e1e2_42de_bd79_cadd7a81f13e"/>
+        <rdfs:label xml:lang="zh">辊压件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_4f2024c1_63dd_4f30_8a3c_de433c74ba80 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_4f2024c1_63dd_4f30_8a3c_de433c74ba80">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_52f80554_3495_4c8a_b4fa_b76879beece0"/>
+        <rdfs:label xml:lang="zh">悬架系统</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_510264e8_ffa2_49bf_b11b_84ddf7fe19d9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_510264e8_ffa2_49bf_b11b_84ddf7fe19d9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_708c8a99_6cc1_49b8_b76f_0351a416fd27"/>
+        <rdfs:label xml:lang="zh">仪表</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_52ef1094_99a4_4149_adf9_05f767c6482b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_52ef1094_99a4_4149_adf9_05f767c6482b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#充电桩"/>
+        <rdfs:label xml:lang="zh">换电</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_52f80554_3495_4c8a_b4fa_b76879beece0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_52f80554_3495_4c8a_b4fa_b76879beece0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件"/>
+        <rdfs:label xml:lang="zh">底盘</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_55a9b7f2_30ed_40f7_8253_b191df7a6d51 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_55a9b7f2_30ed_40f7_8253_b191df7a6d51">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_aec7d93e_e0d3_47e3_a0fe_9dcb2de205e5"/>
+        <rdfs:label xml:lang="zh">紧固件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_568f5d3e_c569_4085_a32b_27df99879643 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_568f5d3e_c569_4085_a32b_27df99879643">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_708c8a99_6cc1_49b8_b76f_0351a416fd27"/>
+        <rdfs:label xml:lang="zh">电子零件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_5691d84a_8cb2_484b_8d18_8f2787c4f363 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_5691d84a_8cb2_484b_8d18_8f2787c4f363">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8de450da_13e0_45e9_ae28_4d310dd602d7"/>
+        <rdfs:label xml:lang="zh">版权与邻接权</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_58f25fc1_efc4_4fee_8de4_b72506efc7a4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_58f25fc1_efc4_4fee_8de4_b72506efc7a4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c8b6c02e_e1e2_42de_bd79_cadd7a81f13e"/>
+        <rdfs:label xml:lang="zh">塑料件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_591190b5_be0a_40d1_8dc1_1ac042395449 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_591190b5_be0a_40d1_8dc1_1ac042395449">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c8b6c02e_e1e2_42de_bd79_cadd7a81f13e"/>
+        <rdfs:label xml:lang="zh">模具</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_5a629164_c026_407e_8ba8_378dd60c90f8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_5a629164_c026_407e_8ba8_378dd60c90f8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_89025500_0026_4246_a0bd_89e8d72ab72d"/>
+        <rdfs:label xml:lang="zh">雨刮器和洗涤器</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_5c6765e2_b7d7_4d69_b1f5_02db4e8d00d7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_5c6765e2_b7d7_4d69_b1f5_02db4e8d00d7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_aec7d93e_e0d3_47e3_a0fe_9dcb2de205e5"/>
+        <rdfs:label xml:lang="zh">拉索</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_6004a56a_d597_4463_a140_1da00fca2389 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_6004a56a_d597_4463_a140_1da00fca2389">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_aec7d93e_e0d3_47e3_a0fe_9dcb2de205e5"/>
+        <rdfs:label xml:lang="zh">阀门</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_6032229e_f9d8_4bfa_9096_8fece34efc3e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_6032229e_f9d8_4bfa_9096_8fece34efc3e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c8b6c02e_e1e2_42de_bd79_cadd7a81f13e"/>
+        <rdfs:label xml:lang="zh">铸造件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_6c0827f6_52e2_4fb9_a51c_4092826ad387 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_6c0827f6_52e2_4fb9_a51c_4092826ad387">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_aec7d93e_e0d3_47e3_a0fe_9dcb2de205e5"/>
+        <rdfs:label xml:lang="zh">弹簧</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_6d6c7e09_ce90_4262_9f46_53d0022b3eec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_6d6c7e09_ce90_4262_9f46_53d0022b3eec">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_0ce8b8bf_f039_4a69_8136_0b1f814f1639"/>
+        <rdfs:label xml:lang="zh">智能座舱</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_6f23db8f_836a_4067_bf4a_3d0337b8b49c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_6f23db8f_836a_4067_bf4a_3d0337b8b49c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8de450da_13e0_45e9_ae28_4d310dd602d7"/>
+        <rdfs:label xml:lang="zh">地理标志权</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_70333ecd_0ca7_4e69_881a_aaa7aabaf2ac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_70333ecd_0ca7_4e69_881a_aaa7aabaf2ac">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#政策法规"/>
+        <rdfs:label xml:lang="zh">环境治理政策</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_708c8a99_6cc1_49b8_b76f_0351a416fd27 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_708c8a99_6cc1_49b8_b76f_0351a416fd27">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件"/>
+        <rdfs:label xml:lang="zh">电子电器</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_713e3a19_4fd4_4221_9342_4a68e3cd26df -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_713e3a19_4fd4_4221_9342_4a68e3cd26df">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8de450da_13e0_45e9_ae28_4d310dd602d7"/>
+        <rdfs:label xml:lang="zh">工业品外观设计权</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_74ea305d_5188_4537_981f_10dde8796380 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_74ea305d_5188_4537_981f_10dde8796380">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_52f80554_3495_4c8a_b4fa_b76879beece0"/>
+        <rdfs:label xml:lang="zh">车架</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_787ca8dc_77e0_496c_a433_bf452cff1a87 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_787ca8dc_77e0_496c_a433_bf452cff1a87">
+        <rdfs:label xml:lang="zh">服务</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_78d9f051_3448_454a_bdf2_b16d6757a87b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_78d9f051_3448_454a_bdf2_b16d6757a87b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_89025500_0026_4246_a0bd_89e8d72ab72d"/>
+        <rdfs:label xml:lang="zh">外饰件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_7b74717a_c6ad_4018_bb84_0b3602f6f709 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_7b74717a_c6ad_4018_bb84_0b3602f6f709">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_89025500_0026_4246_a0bd_89e8d72ab72d"/>
+        <rdfs:label xml:lang="zh">车门及附件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_7c61a06e_4dff_4267_bce6_8020d6bc92f7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_7c61a06e_4dff_4267_bce6_8020d6bc92f7">
+        <rdfs:label xml:lang="zh">创新项目</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_7de4b500_a80f_43ee_9270_a8650ac90bda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_7de4b500_a80f_43ee_9270_a8650ac90bda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_52f80554_3495_4c8a_b4fa_b76879beece0"/>
+        <rdfs:label xml:lang="zh">车轮及附件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_7eb6c0e9_d9c2_44b1_91e0_db1dd06f04c4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_7eb6c0e9_d9c2_44b1_91e0_db1dd06f04c4">
+        <rdfs:label xml:lang="zh">品牌</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8481a15f_f347_4c4f_b6f3_50f8466ba1a0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8481a15f_f347_4c4f_b6f3_50f8466ba1a0">
+        <rdfs:label xml:lang="zh">资质和标准</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_89025500_0026_4246_a0bd_89e8d72ab72d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_89025500_0026_4246_a0bd_89e8d72ab72d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件"/>
+        <rdfs:label xml:lang="zh">车身内外饰件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8a2259d9_26e6_44f4_be98_70b752345071 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8a2259d9_26e6_44f4_be98_70b752345071">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_52f80554_3495_4c8a_b4fa_b76879beece0"/>
+        <rdfs:label xml:lang="zh">万向节和传动轴</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8c8b358c_c5de_4aea_92a0_4ba4ebeef7bb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8c8b358c_c5de_4aea_92a0_4ba4ebeef7bb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_89025500_0026_4246_a0bd_89e8d72ab72d"/>
+        <rdfs:label xml:lang="zh">保险杠</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8de450da_13e0_45e9_ae28_4d310dd602d7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8de450da_13e0_45e9_ae28_4d310dd602d7">
+        <rdfs:label xml:lang="zh">知识产权</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_92338362_a133_45e9_aa88_ac9379cf3ffc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_92338362_a133_45e9_aa88_ac9379cf3ffc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_aec7d93e_e0d3_47e3_a0fe_9dcb2de205e5"/>
+        <rdfs:label xml:lang="zh">管件和管路</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_93f22683_60d3_446f_a2a1_674231274a49 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_93f22683_60d3_446f_a2a1_674231274a49">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8481a15f_f347_4c4f_b6f3_50f8466ba1a0"/>
+        <rdfs:label xml:lang="zh">GB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_94511fd4_3a62_4b66_ba22_075d58563a78 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_94511fd4_3a62_4b66_ba22_075d58563a78">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_89025500_0026_4246_a0bd_89e8d72ab72d"/>
+        <rdfs:label xml:lang="zh">内饰件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_95823fe0_ed23_455d_9029_ab3d2ecea011 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_95823fe0_ed23_455d_9029_ab3d2ecea011">
+        <rdfs:label xml:lang="zh">标准</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_98920b75_41d2_4508_8bb0_2a44b38571a0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_98920b75_41d2_4508_8bb0_2a44b38571a0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_708c8a99_6cc1_49b8_b76f_0351a416fd27"/>
+        <rdfs:label xml:lang="zh">暖风空调系统</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_9c9e691f_736c_4ba4_80b4_d2f90f5a5704 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_9c9e691f_736c_4ba4_80b4_d2f90f5a5704">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_708c8a99_6cc1_49b8_b76f_0351a416fd27"/>
+        <rdfs:label xml:lang="zh">电机</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_a09a94a5_4d0e_4210_9704_5b633e341360 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_a09a94a5_4d0e_4210_9704_5b633e341360">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_89025500_0026_4246_a0bd_89e8d72ab72d"/>
+        <rdfs:label xml:lang="zh">汽车漆</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_a0e74a64_1a5e_470e_be92_40dc89ce0e82 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_a0e74a64_1a5e_470e_be92_40dc89ce0e82">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_14f42074_d622_4461_851d_1835603955de"/>
+        <rdfs:label xml:lang="zh">润滑系统</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_a3f87842_9a9c_4ade_b0f1_bcc846235714 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_a3f87842_9a9c_4ade_b0f1_bcc846235714">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件"/>
+        <rdfs:label xml:lang="zh">新能源</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_a74b2adc_ff7a_41ec_b27f_6ae9e8a6f5f0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_a74b2adc_ff7a_41ec_b27f_6ae9e8a6f5f0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_14f42074_d622_4461_851d_1835603955de"/>
+        <rdfs:label xml:lang="zh">发动机基本零部件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_aec7d93e_e0d3_47e3_a0fe_9dcb2de205e5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_aec7d93e_e0d3_47e3_a0fe_9dcb2de205e5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件"/>
+        <rdfs:label xml:lang="zh">通用件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_aefd4375_7e8f_456d_bf17_bb807feaf1f8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_aefd4375_7e8f_456d_bf17_bb807feaf1f8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c8b6c02e_e1e2_42de_bd79_cadd7a81f13e"/>
+        <rdfs:label xml:lang="zh">橡胶件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_b1698dd9_6361_44ee_8433_c04f9af4161e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_b1698dd9_6361_44ee_8433_c04f9af4161e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_89025500_0026_4246_a0bd_89e8d72ab72d"/>
+        <rdfs:label xml:lang="zh">座椅及附件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_bc5cc24a_ff31_4d75_9fa7_c987e1ef6b71 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_bc5cc24a_ff31_4d75_9fa7_c987e1ef6b71">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8de450da_13e0_45e9_ae28_4d310dd602d7"/>
+        <rdfs:label xml:lang="zh">未披露过的信息的保护</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_bc8d3bd6_a5ef_4291_9734_1f1556db623e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_bc8d3bd6_a5ef_4291_9734_1f1556db623e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_aec7d93e_e0d3_47e3_a0fe_9dcb2de205e5"/>
+        <rdfs:label xml:lang="zh">玻璃</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c72e8bb7_9129_4cb3_a873_3af21630d6d9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c72e8bb7_9129_4cb3_a873_3af21630d6d9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_52f80554_3495_4c8a_b4fa_b76879beece0"/>
+        <rdfs:label xml:lang="zh">车桥</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c7c7b61f_95f9_47b4_93ac_a389864791a3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c7c7b61f_95f9_47b4_93ac_a389864791a3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_aec7d93e_e0d3_47e3_a0fe_9dcb2de205e5"/>
+        <rdfs:label xml:lang="zh">齿轮</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c8b1fbeb_b281_4a74_9718_09c642ff0821 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c8b1fbeb_b281_4a74_9718_09c642ff0821">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_89025500_0026_4246_a0bd_89e8d72ab72d"/>
+        <rdfs:label xml:lang="zh">车标</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c8b6c02e_e1e2_42de_bd79_cadd7a81f13e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c8b6c02e_e1e2_42de_bd79_cadd7a81f13e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件"/>
+        <rdfs:label xml:lang="zh">模具及工艺件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c90d0390_a91d_43cf_be65_bb71dfdb5aa1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c90d0390_a91d_43cf_be65_bb71dfdb5aa1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8481a15f_f347_4c4f_b6f3_50f8466ba1a0"/>
+        <rdfs:label xml:lang="zh">服务认证</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_cd5c42a1_f82e_4866_8f8f_678f187ba1be -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_cd5c42a1_f82e_4866_8f8f_678f187ba1be">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_787ca8dc_77e0_496c_a433_bf452cff1a87"/>
+        <rdfs:label xml:lang="zh">电池回收</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_ceee8e64_e869_43bd_8231_af946314b94e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_ceee8e64_e869_43bd_8231_af946314b94e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c8b6c02e_e1e2_42de_bd79_cadd7a81f13e"/>
+        <rdfs:label xml:lang="zh">挤压件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_d2729fba_4833_487e_9f43_b2a1307e35af -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_d2729fba_4833_487e_9f43_b2a1307e35af">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_708c8a99_6cc1_49b8_b76f_0351a416fd27"/>
+        <rdfs:label xml:lang="zh">传感器</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_d5a76d6f_0191_494a_9545_ecc1f833bae7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_d5a76d6f_0191_494a_9545_ecc1f833bae7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_0ce8b8bf_f039_4a69_8136_0b1f814f1639"/>
+        <rdfs:label xml:lang="zh">环境感知</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_d8662fc3_9b39_4ddf_bdbf_13f9328f48e3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_d8662fc3_9b39_4ddf_bdbf_13f9328f48e3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c8b6c02e_e1e2_42de_bd79_cadd7a81f13e"/>
+        <rdfs:label xml:lang="zh">表面处理</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_dcdcf661_5952_406c_a886_92504390f7fa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_dcdcf661_5952_406c_a886_92504390f7fa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_7c61a06e_4dff_4267_bce6_8020d6bc92f7"/>
+        <rdfs:label xml:lang="zh">国家科技部创新项目</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_dd88ccbd_c986_4b49_b7d0_1f0e9c33ab85 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_dd88ccbd_c986_4b49_b7d0_1f0e9c33ab85">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_0ce8b8bf_f039_4a69_8136_0b1f814f1639"/>
+        <rdfs:label xml:lang="zh">算法</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_ddb442ab_213a_4802_8890_e4f97739e466 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_ddb442ab_213a_4802_8890_e4f97739e466">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8481a15f_f347_4c4f_b6f3_50f8466ba1a0"/>
+        <rdfs:label xml:lang="zh">ISO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_dffe49f0_3da6_4b95_b0ef_d6836d5276e0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_dffe49f0_3da6_4b95_b0ef_d6836d5276e0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_aec7d93e_e0d3_47e3_a0fe_9dcb2de205e5"/>
+        <rdfs:label xml:lang="zh">密封件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_e00fd7f5_974a_4e05_94e8_901e2838b1ec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_e00fd7f5_974a_4e05_94e8_901e2838b1ec">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#充电桩"/>
+        <rdfs:label xml:lang="zh">无线</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_e0646c96_2484_4507_8fd5_dc15cb137f13 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_e0646c96_2484_4507_8fd5_dc15cb137f13">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_0ce8b8bf_f039_4a69_8136_0b1f814f1639"/>
+        <rdfs:label xml:lang="zh">高级辅助驾驶系统</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_e4151b85_5469_4bb7_a27c_a324315c715d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_e4151b85_5469_4bb7_a27c_a324315c715d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_89025500_0026_4246_a0bd_89e8d72ab72d"/>
+        <rdfs:label xml:lang="zh">轻量化</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_e4250a71_e3f5_4f4f_a667_eb2496e6763b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_e4250a71_e3f5_4f4f_a667_eb2496e6763b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_aec7d93e_e0d3_47e3_a0fe_9dcb2de205e5"/>
+        <rdfs:label xml:lang="zh">皮带</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_e4c50498_0065_4ebe_9b39_faeb93c6a5e3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_e4c50498_0065_4ebe_9b39_faeb93c6a5e3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_aec7d93e_e0d3_47e3_a0fe_9dcb2de205e5"/>
+        <rdfs:label xml:lang="zh">轴承</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_e545d87b_1e79_48a9_925d_507349237965 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_e545d87b_1e79_48a9_925d_507349237965">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_89025500_0026_4246_a0bd_89e8d72ab72d"/>
+        <rdfs:label xml:lang="zh">车镜</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_e9bc9d0d_d691_4e70_844d_c4bc52f78354 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_e9bc9d0d_d691_4e70_844d_c4bc52f78354">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8de450da_13e0_45e9_ae28_4d310dd602d7"/>
+        <rdfs:label xml:lang="zh">商标权</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_ebbaf023_a84c_4b70_8d19_e321b063c1ea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_ebbaf023_a84c_4b70_8d19_e321b063c1ea">
+        <rdfs:label xml:lang="zh">荣誉</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_eee46260_9b3b_42cc_a004_9a4425657844 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_eee46260_9b3b_42cc_a004_9a4425657844">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_aec7d93e_e0d3_47e3_a0fe_9dcb2de205e5"/>
+        <rdfs:label xml:lang="zh">悬置</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_efc9d2f0_5f21_4360_b95c_4360e39d6d3b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_efc9d2f0_5f21_4360_b95c_4360e39d6d3b">
+        <rdfs:label xml:lang="zh">活动和展会</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_f210a526_ef85_4b86_80be_5978fb97c3e9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_f210a526_ef85_4b86_80be_5978fb97c3e9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_c8b6c02e_e1e2_42de_bd79_cadd7a81f13e"/>
+        <rdfs:label xml:lang="zh">粉末冶金件</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_f48a681b_84c1_4819_b576_a2dae5a5399a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_f48a681b_84c1_4819_b576_a2dae5a5399a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_0ce8b8bf_f039_4a69_8136_0b1f814f1639"/>
+        <rdfs:label xml:lang="zh">AI芯片</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_f4fc6fce_ac48_4099_9f0d_1b31cbdd6a4b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_f4fc6fce_ac48_4099_9f0d_1b31cbdd6a4b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_0ce8b8bf_f039_4a69_8136_0b1f814f1639"/>
+        <rdfs:label xml:lang="zh">汽车开发测试</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_fa2dfb15_6188_471c_96f3_708da13b7d03 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_fa2dfb15_6188_471c_96f3_708da13b7d03">
+        <rdfs:label xml:lang="zh">技术</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_fbcb0b6a_199a_4580_9edf_5be966364a56 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_fbcb0b6a_199a_4580_9edf_5be966364a56">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_89025500_0026_4246_a0bd_89e8d72ab72d"/>
+        <rdfs:label xml:lang="zh">天窗</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_fc304906_15fd_4864_b679_f58291d0e70a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_fc304906_15fd_4864_b679_f58291d0e70a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_8de450da_13e0_45e9_ae28_4d310dd602d7"/>
+        <rdfs:label xml:lang="zh">集成电路布局图设计权</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_fc6e46ad_0f3d_4c51_88b2_40f5f74da49b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_fc6e46ad_0f3d_4c51_88b2_40f5f74da49b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_52f80554_3495_4c8a_b4fa_b76879beece0"/>
+        <rdfs:label xml:lang="zh">轮胎</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_fd23f7b2_a272_420d_97f3_633bd8a153f9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_fd23f7b2_a272_420d_97f3_633bd8a153f9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_708c8a99_6cc1_49b8_b76f_0351a416fd27"/>
+        <rdfs:label xml:lang="zh">电子控制单元</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_ff87e92a_05d0_4e58_8749_8e3496098bc3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_ff87e92a_05d0_4e58_8749_8e3496098bc3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_0ce8b8bf_f039_4a69_8136_0b1f814f1639"/>
+        <rdfs:label xml:lang="zh">TSP服务</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#三元锂材料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#三元锂材料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极材料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#三元锂电池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#三元锂电池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#上游产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#上游产品">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#上游制造商 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#上游制造商">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#企业"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#下游配套 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#下游配套">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#专用车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#专用车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#丙脂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#丙脂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#溶剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#乘用车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#乘用车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#交流异步电机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#交流异步电机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#交流电机"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#交流电机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#交流电机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#产品"/>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#产能政策 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#产能政策">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#政策法规"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#人造石墨 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#人造石墨">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#负极材料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#企业 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#企业"/>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#充电机厂商 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#充电机厂商">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件制造商"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#充电桩 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#充电桩">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#下游配套"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#充电站 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#充电站">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#下游配套"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#六氟磷酸锂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#六氟磷酸锂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电解质"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#其他厂商 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#其他厂商">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件制造商"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#其他零部件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#其他零部件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#减速器 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#减速器">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_52f80554_3495_4c8a_b4fa_b76879beece0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#减速器厂商 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#减速器厂商">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电控厂商"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#原料企业 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#原料企业">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#企业"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#原材料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#原材料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#四氟硼酸锂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#四氟硼酸锂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电解质"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#圆柱 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#圆柱">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#三元锂电池"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#天然石墨 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#天然石墨">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#负极材料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#客车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#客车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#导电添加剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#导电添加剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#添加剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#干法隔膜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#干法隔膜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#隔膜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#开关磁阻电机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#开关磁阻电机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#交流电机"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#成膜添加剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#成膜添加剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#添加剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#插电式混合动力城市客车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#插电式混合动力城市客车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#客车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#插电式混合动力多用途乘用车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#插电式混合动力多用途乘用车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#乘用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#插电式混合动力轿车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#插电式混合动力轿车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#乘用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#政策法规 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#政策法规"/>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车制造商 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车制造商">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#企业"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车控制系统（VMS） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#整车控制系统（VMS）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电控"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#方壳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#方壳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#三元锂电池"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#无纺布膜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#无纺布膜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#膈膜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极原料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极原料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#原材料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极材料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极材料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#上游产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极材料厂商 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极材料厂商">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#上游制造商"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#永磁同步电机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#永磁同步电机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#交流电机"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#永磁材料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#永磁材料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机材料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#混合动力城市客车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#混合动力城市客车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#客车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#混合动力客车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#混合动力客车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#客车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#添加剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#添加剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电解液原料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#湿法隔膜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#湿法隔膜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#隔膜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#溶剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#溶剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电解液原料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#熟焦 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#熟焦">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#负极原料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#玻璃纤维 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#玻璃纤维">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#无纺布膜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#生焦 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#生焦">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#负极原料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#甲脂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#甲脂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#溶剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电控 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电控">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_a3f87842_9a9c_4ade_b0f1_bcc846235714"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电控厂商 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电控厂商">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件制造商"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_a3f87842_9a9c_4ade_b0f1_bcc846235714"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机厂商 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机厂商">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件制造商"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机原料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机原料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#原材料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机控制系统（MCU） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机控制系统（MCU）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电控"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机材料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机材料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#上游产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_a3f87842_9a9c_4ade_b0f1_bcc846235714"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池厂商 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池厂商">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件制造商"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池管理系统（BMS） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池管理系统（BMS）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电控"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电解液 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电解液">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#上游产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电解液厂商 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电解液厂商">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#上游制造商"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电解液原料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电解液原料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#原材料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电解质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电解质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电解液原料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#监管部门 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#监管部门"/>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#直流电机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#直流电机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#硅源 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#硅源">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#负极原料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#硅碳材料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#硅碳材料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#负极材料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#硅钢片 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#硅钢片">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机材料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#碳源 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#碳源">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极原料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#磷酸铁锂材料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#磷酸铁锂材料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极材料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#磷酸铁锂电池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#磷酸铁锂电池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#稀土 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#稀土">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机原料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#稀土厂商 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#稀土厂商">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#原料企业"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动仓栅式运输车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动仓栅式运输车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#专用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动冷藏车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动冷藏车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#专用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动厢式运输车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动厢式运输车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#专用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动城市客车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动城市客车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#客车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动多用途乘用车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动多用途乘用车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#乘用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动客车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动客车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#客车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动密闭式桶装垃圾车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动密闭式桶装垃圾车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#专用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动封闭货车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动封闭货车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#专用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动工程车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动工程车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#专用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动扫路车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动扫路车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#专用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动洗扫车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动洗扫车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#专用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动自装卸式垃圾车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动自装卸式垃圾车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#专用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动路面养护车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动路面养护车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#专用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动车厢可卸式垃圾车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动车厢可卸式垃圾车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#专用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动轿车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动轿车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#乘用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动运动型乘用车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动运动型乘用车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#乘用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动邮政车 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#纯电动邮政车">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#专用车"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#耐过充过放添加剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#耐过充过放添加剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#添加剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#聚丙烯PP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#聚丙烯PP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#聚合物膜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#聚乙烯PE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#聚乙烯PE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#聚合物膜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#聚合物膜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#聚合物膜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#膈膜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#膈膜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#膈膜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#原材料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#补贴政策 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#补贴政策">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#政策法规"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#负极原料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#负极原料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#原材料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#负极材料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#负极材料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#上游产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#负极材料厂商 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#负极材料厂商">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#上游制造商"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#轮毂电机 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#轮毂电机">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#软包 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#软包">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#三元锂电池"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#针状焦 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#针状焦">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#负极原料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#钴 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#钴">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#原料企业"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#钴源 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#钴源">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极原料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#钴酸锂材料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#钴酸锂材料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极材料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#铁源 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#铁源">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极原料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#铁矿石 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#铁矿石">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电机原料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#铝源 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#铝源">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极原料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#锂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#锂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#原料企业"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#锂源 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#锂源">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极原料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#锰源 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#锰源">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极原料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#锰酸锂材料 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#锰酸锂材料">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极材料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#锰酸锂电池 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#锰酸锂电池">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#镍 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#镍">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#原料企业"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#镍源 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#镍源">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极原料"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#陶瓷纤维 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#陶瓷纤维">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#无纺布膜"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#隔膜 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#隔膜">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#上游产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#隔膜厂商 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#隔膜厂商">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#上游制造商"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#集团 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#集团"/>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#产品"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件制造商 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#零部件制造商">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#企业"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#高氯酸锂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#高氯酸锂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电解质"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLNamedIndividual_1f3134f8_42b3_4cce_a961_3cce0563e240 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLNamedIndividual_1f3134f8_42b3_4cce_a961_3cce0563e240">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_01e18753_0f05_4b04_991c_9cf25e8d19f4"/>
+        <rdfs:label xml:lang="zh">国家发改委战略性新兴产业项目</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLNamedIndividual_30bb3eed_8e36_4113_888c_6852b3fd865b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLNamedIndividual_30bb3eed_8e36_4113_888c_6852b3fd865b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_dcdcf661_5952_406c_a886_92504390f7fa"/>
+        <rdfs:label xml:lang="zh">国家科技部863项目</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLNamedIndividual_7fe3c0c5_9e42_468c_8e00_e6e013ddd3dd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLNamedIndividual_7fe3c0c5_9e42_468c_8e00_e6e013ddd3dd">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#OWLClass_3c65e775_19af_427e_b5e1_a4a89b808c87"/>
+        <rdfs:label xml:lang="zh">环保车型目录</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#《乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#《乘用车企业平均燃料消耗量与新能源汽车积分并行管理办法》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#产能政策"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#《关于调整完善新能源汽车推广应用财政补贴政策的通知》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#《关于调整完善新能源汽车推广应用财政补贴政策的通知》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#补贴政策"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#创新股份 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#创新股份">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#隔膜厂商"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#华友钴业 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#华友钴业">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#钴"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#国轩高科 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#国轩高科">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池厂商"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#天赐材料 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#天赐材料">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电解液厂商"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#天齐锂业 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#天齐锂业">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#稀土厂商"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#孚能 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#孚能">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池厂商"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#宁德时代 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#宁德时代">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池厂商"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#宁波金和 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#宁波金和">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极材料厂商"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#工信部 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#工信部">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#监管部门"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#当升科技 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#当升科技">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#正极材料厂商"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#新宙邦 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#新宙邦">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电解液厂商"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#杉杉股份 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#杉杉股份">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#负极材料厂商"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#比亚迪 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#比亚迪">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池厂商"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#比克 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#比克">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电池厂商"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#汇川技术 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#汇川技术">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#电控厂商"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#江西紫宸 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#江西紫宸">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#负极材料厂商"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#江西赣锋锂业有限公司 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#江西赣锋锂业有限公司">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#稀土厂商"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#贝特瑞 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#贝特瑞">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#负极材料厂商"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#财政部 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#财政部">
+        <rdf:type rdf:resource="http://www.semanticweb.org/l/ontologies/2018/2/untitled-ontology-33#监管部门"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
